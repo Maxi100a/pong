@@ -1,6 +1,5 @@
 # import modules
 import pygame
-from pygame.locals import *
 import sys
 import random
 
@@ -59,7 +58,6 @@ def main():
         player1.move()
         player2.move()
         ball.move()
-
 
         pygame.display.update()
         fps.tick(60)
