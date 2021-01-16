@@ -9,3 +9,4 @@ WIDTH = 600
 
 pygame.font.init()
 TEXT_FONT = pygame.font.SysFont('Trebuchet MS', 32)
+MENU_FONT = pygame.font.SysFont('Trebuchet MS', 24)
